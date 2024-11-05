@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Conv_MisterBrush';
-	src: url('../../fonts/MisterBrush.eot');
-	src: local('☺'), url('../../fonts/MisterBrush.woff') format('woff'), url('../../fonts/MisterBrush.ttf') format('truetype'), url('../../fonts/MisterBrush.svg') format('svg');
+	src: url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.eot');
+	src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
