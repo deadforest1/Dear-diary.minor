@@ -1,0 +1,221 @@
+@font-face {
+	font-family: 'Conv_MisterBrush';
+	src: url('../../fonts/MisterBrush.eot');
+	src: local('☺'), url('../../fonts/MisterBrush.woff') format('woff'), url('../../fonts/MisterBrush.ttf') format('truetype'), url('../../fonts/MisterBrush.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Letmeshowyou_font';
+	src: url('../../fonts/Letmeshowyou_font.eot');
+	src: local('☺'), url('../../fonts/Letmeshowyou_font.woff') format('woff'), url('../../fonts/Letmeshowyou_font.ttf') format('truetype'), url('../../fonts/Letmeshowyou_font.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("../images/chars-bg.jpg");
+    background-attachment: fixed;}
+    
+
+
+.header {
+    height: 90px;
+    background: #0e0e0e;
+}
+
+.container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+
+
+.logo a{
+    font-family: 'Conv_Letmeshowyou_font';
+    font-size: 29px;
+    text-decoration: none;
+    color: rgb(213, 213, 213);
+    transition: all .1s ease-in-out;}
+    
+
+.logo a:hover{
+    font-family: 'Conv_Letmeshowyou_font';
+    font-size: 31px;
+    text-decoration: none;
+    color: rgb(213, 213, 213);}
+
+.contacts{
+    padding: 40px;
+    box-shadow: black;
+}
+
+
+
+.navbar{
+    display: flex;
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.navbar_scrolled{
+    position: fixed;
+   
+    top: 0;
+    left: 0%;
+    margin-top: 0
+    
+    
+}
+
+.test{
+    height: 1000px;
+}
+
+.navbar-menu{
+   height: inherit;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.navbar-menu  li{
+    
+    list-style-type: none;
+    position: relative;
+    
+    
+}
+
+
+
+
+
+.navbar-menu  li  a{
+    height: inherit;
+    text-decoration: none;
+    font-family: 'Conv_MisterBrush';
+    color: white;
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    border-right: 0.1px solid black;
+    transition: all .1s ease-in-out;
+    
+    
+}
+
+.navbar-menu  li  a:hover{
+    background-color: rgb(31, 30, 30);
+    
+    
+}
+
+
+h1{
+    font-family: 'Conv_Letmeshowyou_font'; 
+    padding: 10px; 
+    margin: 50px;
+}
+
+.submenu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    
+
+    
+    
+}
+
+
+li:hover .submenu{
+    display: flex;
+    
+    
+    
+}
+
+
+.img-increase img {
+    padding: 10px;
+    transition: all .1s ease-out;
+    -moz-transition: all .1s ease-out;
+    -o-transition: all .1s ease-out;
+    -webkit-transition: all .1s ease-out;
+}
+
+.img-increase img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.area{
+    height: 1000px;
+    width: 1000px;
+    background-image: url('../images/sheet2.png');
+    background-size: 1000px 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+   
+    
+    
+}
+
+.content-area-chars{
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+    
+    
+
+    
+}
+
+figure{
+    margin: 20px;
+}
+
+figcaption{
+    font-family: 'Conv_MisterBrush';  
+}
+
+
+.title p{
+    display: inline-block;
+    margin: 60px 0px 0px 50px;
+    /* position: absolute;
+    margin-top: 65px;
+    margin-left: 50px; */
+    font-family: 'Conv_Letmeshowyou_font';
+    font-size: 25px;
+    color: #0e0e0e;
+    background-color: rgba(251, 251, 251, 0.7);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 7px 12px rgba(255, 255, 255, 0.5);
+
+}
+
+

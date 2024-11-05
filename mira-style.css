@@ -1,0 +1,260 @@
+@font-face {
+	font-family: 'Conv_MisterBrush';
+	src: url('../../fonts/MisterBrush.eot');
+	src: local('☺'), url('../../fonts/MisterBrush.woff') format('woff'), url('../../fonts/MisterBrush.ttf') format('truetype'), url('../../fonts/MisterBrush.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Letmeshowyou_font';
+	src: url('../../fonts/Letmeshowyou_font.eot');
+	src: local('☺'), url('../../fonts/Letmeshowyou_font.woff') format('woff'), url('../../fonts/Letmeshowyou_font.ttf') format('truetype'), url('../../fonts/Letmeshowyou_font.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../images/nadya-bg.jpg');
+    background-attachment: fixed;
+}
+    
+    
+
+
+.header {
+    height: 90px;
+    background: #0e0e0e;
+}
+
+.container {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+
+
+.logo a{
+    font-family: 'Conv_Letmeshowyou_font';
+    font-size: 29px;
+    text-decoration: none;
+    color: rgb(213, 213, 213);
+    transition: all .1s ease-in-out;}
+    
+
+.logo a:hover{
+    font-family: 'Conv_Letmeshowyou_font';
+    font-size: 31px;
+    text-decoration: none;
+    color: rgb(213, 213, 213);}
+
+.contacts{
+    padding: 40px;
+    box-shadow: black;
+}
+
+
+
+.navbar{
+    display: flex;
+    position: absolute;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+}
+
+.navbar_scrolled{
+    position: fixed;
+   
+    top: 0;
+    left: 0%;
+    margin-top: 0
+    
+    
+}
+
+.test{
+    height: 1000px;
+}
+
+.navbar-menu{
+   height: inherit;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.navbar-menu  li{
+    
+    list-style-type: none;
+    position: relative;
+    
+    
+}
+
+
+
+
+
+.navbar-menu  li  a{
+    height: inherit;
+    text-decoration: none;
+    font-family: 'Conv_MisterBrush';
+    color: white;
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 10px;
+    border-right: 0.1px solid black;
+    transition: all .1s ease-in-out;
+    
+    
+}
+
+.navbar-menu  li  a:hover{
+    background-color: rgb(31, 30, 30);
+    
+    
+}
+
+
+
+
+
+.content-area{
+    margin-top: 20px;
+    position: relative;
+    background-image: url("../images/sheet1.png" );
+    background-size: 800px 500px;
+    height: 500px;
+    width: 800px;
+    text-align: center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ 
+ 
+       
+ 
+ 
+ 
+ 
+ .content-area p{
+     
+     position: relative;
+     
+     
+     font-family: 'Conv_MisterBrush';
+     
+     color: #0e0e0e;
+ 
+ }
+ 
+ .title p{
+     display: inline-block;
+     margin: 60px 0px 0px 50px;
+     /* position: absolute;
+     margin-top: 65px;
+     margin-left: 50px; */
+     font-family: 'Conv_Letmeshowyou_font';
+     font-size: 25px;
+     color: #0e0e0e;
+     background-color: rgba(251, 251, 251, 0.7);
+     border-radius: 20px;
+     padding: 20px;
+     box-shadow: 0px 7px 12px rgba(255, 255, 255, 0.5);
+ 
+ }
+ 
+ span a{
+     text-decoration: none;
+     color: rgb(234, 109, 222);
+ }
+ 
+ .content-area a:hover{
+     color: rgb(218, 40, 200);
+ }
+ 
+
+ .footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.footer p{
+    position: relative;
+    font-family: 'Conv_MisterBrush';
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+tr{
+    height: 100px;
+    width: 70px;
+    align-items: center;
+    
+}
+
+td{
+    width: 50px;
+    height:50px;
+    font-family: 'Conv_Letmeshowyou_font';
+    color: white;  
+    text-align: center;
+}
+
+
+table {
+    margin: 2px 50px 0 50px;
+    background-image: url("../images/table-bg.jpg");
+    background-size: 1000px 700px;
+    background-repeat: no-repeat;
+    width:800px;
+    height:600px;
+    
+};
+
+.picture{
+    /* background-image: url("5278614343107338893.jpg"); */
+    background-image: url("../images/nadya-table_bg.jpg");
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    
+}
+
+table, td, th{
+  border: 1px solid white;
+  border-collapse: collapse;
+
+}
+
+.info p{
+    font-family: 'Conv_MisterBrush';
+    color: black;  
+    margin-left: 50px;
+
+}
+
