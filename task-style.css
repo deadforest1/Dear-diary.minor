@@ -1,15 +1,15 @@
 @font-face {
 	font-family: 'Conv_MisterBrush';
-	src: url('../../fonts/MisterBrush.eot');
-	src: local('☺'), url('../../fonts/MisterBrush.woff') format('woff'), url('../../fonts/MisterBrush.ttf') format('truetype'), url('../../fonts/MisterBrush.svg') format('svg');
+	src: url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.eot');
+	src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Conv_Letmeshowyou_font';
-	src: url('../../fonts/Letmeshowyou_font.eot');
-	src: local('☺'), url('../../fonts/Letmeshowyou_font.woff') format('woff'), url('../../fonts/Letmeshowyou_font.ttf') format('truetype'), url('../../fonts/Letmeshowyou_font.svg') format('svg');
+	src: url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.eot');
+	src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -122,7 +122,7 @@ body {
 .content-area{
    margin-top: 20px;
    position: relative;
-   background-image: url("../images/sheet1.png" );
+   background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/sheet1.png" );
    background-size: 800px 500px;
    height: 500px;
    width: 800px;
