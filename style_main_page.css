@@ -17,7 +17,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url("https://deadforest1.github.io/Dear-diary.minor/images/image.png");
+    background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/image.png");
     background-attachment: fixed;}
     
 
@@ -175,7 +175,7 @@ li:hover .submenu{
 .content-area{
    margin-top: 20px;
    position: relative;
-   background-image: url("https://deadforest1.github.io/Dear-diary.minor/images/sheet1.png" );
+   background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/sheet1.png" );
    background-size: 800px 500px;
    height: 500px;
    width: 800px;
