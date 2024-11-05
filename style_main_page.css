@@ -8,8 +8,8 @@
 
 @font-face {
 	font-family: 'Conv_Letmeshowyou_font';
-	src: url('../../fonts/Letmeshowyou_font.eot');
-	src: local('☺'), url('../../fonts/Letmeshowyou_font.woff') format('woff'), url('../../fonts/Letmeshowyou_font.ttf') format('truetype'), url('../../fonts/Letmeshowyou_font.svg') format('svg');
+	src: url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.eot');
+	src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -17,7 +17,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url("../images/image.png");
+    background-image: url("https://deadforest1.github.io/Dear-diary.minor/images/image.png");
     background-attachment: fixed;}
     
 
@@ -175,7 +175,7 @@ li:hover .submenu{
 .content-area{
    margin-top: 20px;
    position: relative;
-   background-image: url("../images/sheet1.png" );
+   background-image: url("https://deadforest1.github.io/Dear-diary.minor/images/sheet1.png" );
    background-size: 800px 500px;
    height: 500px;
    width: 800px;
