@@ -16,7 +16,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url('https://deadforest1.github.io/Dear-diary.minor/static/images//Н.png');
+    background-image: url('https://deadforest1.github.io/Dear-diary.minor/static/images/nadya-bg.jpg');
     background-attachment: fixed;
 }
     
@@ -228,7 +228,7 @@ td{
 
 .picture{
     /* background-image: url("5278614343107338893.jpg"); */
-    background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/nadya-table_bg.jpg");
+    background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/Н.png");
     background-size: 120px 120px;
     background-repeat: no-repeat;
     
