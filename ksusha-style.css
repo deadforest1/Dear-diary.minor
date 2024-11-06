@@ -121,7 +121,7 @@ body {
 }
 
 .navbar-menu  li  a:hover{
-    background-color: rgb(31, 30, 30);
+    background-color: rgb(108, 193, 200)
     
     
 }
@@ -181,6 +181,11 @@ body {
      text-decoration: none;
      color: rgb(234, 109, 222);
  }
+
+ span a:active{
+    text-decoration: none;
+    color: rgb(209, 20, 190);
+}
  
  .content-area a:hover{
      color: rgb(218, 40, 200);
@@ -228,14 +233,17 @@ td{
 
 
 table {
-    margin: 2px 50px 0 50px;
-    background-image: url("../images/table-bg.jpg");
+    margin: 50px 50px 0 50px;
+    background-image: url("../images/table-bg-senya.jpg");
     background-size: 1000px 700px;
     background-repeat: no-repeat;
     width:800px;
     height:600px;
+    box-shadow: 2px 2px 2px #ffffff; 
     
 };
+
+
 
 .picture{
     /* background-image: url("5278614343107338893.jpg"); */
