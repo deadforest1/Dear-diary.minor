@@ -126,7 +126,11 @@ body {
 }
 
 
-
+h1{
+    font-family: 'Conv_Letmeshowyou_font'; 
+    padding: 10px; 
+    margin: 50px;
+}
 
 .submenu {
     display: none;
@@ -211,30 +215,6 @@ figcaption{
     border-radius: 20px;
     padding: 20px;
     box-shadow: 0px 7px 12px rgba(255, 255, 255, 0.5);
-
-}
-
-.footer{
-    margin-top: 50px;
-    width: 100%;
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-.footer p{
-    position: relative;
-    font-family: 'Conv_MisterBrush';
-    color: white;
-    font-size: 20px;
-    
 
 }
 
