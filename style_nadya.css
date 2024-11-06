@@ -226,17 +226,6 @@ td{
     text-align: center;
 }
 
-
-table {
-    margin: 2px 50px 0 50px;
-    background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/table-bg.jpg");
-    background-size: 1000px 700px;
-    background-repeat: no-repeat;
-    width:800px;
-    height:600px;
-    
-};
-
 .picture{
     /* background-image: url("5278614343107338893.jpg"); */
     background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/nadya-table_bg.jpg");
@@ -250,6 +239,17 @@ table, td, th{
   border-collapse: collapse;
 
 }
+table {
+    margin: 2px 50px 0 50px;
+    background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/table-bg.jpg");
+    background-size: 1000px 700px;
+    background-repeat: no-repeat;
+    width:800px;
+    height:600px;
+    
+};
+
+
 
 .info p{
     font-family: 'Conv_MisterBrush';
