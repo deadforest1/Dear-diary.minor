@@ -11,7 +11,7 @@ document.getElementById('button').addEventListener('click', function(){
     if (issuedText.innerText === 'ГУ МВД РОССИИ ПО МОСКОВСКОЙ ОБЛАСТИ'){
        issuedText.innerText = 'THE MINISTRY OF INTERNAL AFFAIRS OF RUSSIA IN THE MOSCOW REGION';
        surnameText.innerText = 'ISUPOVA';
-       nameText.innerText = 'OLGA';
+       nameText.innerText = 'OLESYA';
        patronimicText.innerText = 'PETROVNA';
        genderText.innerText = 'FEMALE';
        placeText.innerText = 'FRYAZINO, MOSCOW REGION';
@@ -20,7 +20,7 @@ document.getElementById('button').addEventListener('click', function(){
     else {
         issuedText.innerText = 'ГУ МВД РОССИИ ПО МОСКОВСКОЙ ОБЛАСТИ';
         surnameText.innerText = 'ИСУПОВА';
-        nameText.innerText = 'ОЛЬГА';
+        nameText.innerText = 'ОЛЕСЯ';
         patronimicText.innerText = 'ПЕТРОВНА';
         genderText.innerText = 'ЖЕН.';
         placeText.innerText = 'ГОР. ФРЯЗИНО МОСКОВСКАЯ ОБЛАСТЬ';
