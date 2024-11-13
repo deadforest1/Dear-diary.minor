@@ -36,20 +36,26 @@
         </div>
     </nav>
 
-    <div class="title">
-        <p>Решение алгоритмической задачи: </p>
-    </div>
+   <div class="content-area">
 
-    <div class="content-area">
+        <form action = 'https://google.com' target="_blank">
 
-        <p id="task_content">Дано вещественное число A. <br> Вычислить х = a**2+4+5 при а < 62; в противном случае x=1/((a**2) + 4a + 5).</p>
+         <p id="task_content">Дано вещественное число A. <br> Вычислить х = a**2+4+5 при а < 62; в противном случае x=1/((a**2) + 4a + 5).</p>
         
-        <p>Значение A: <input type="text" id="a" placeholder="Введите число"></p>
+         <p>Значение A: <input type="text" name = 'a' id="a" placeholder="Введите число"></p>
         
-        <p id="verify" class="verify">вычислить X</p>
-    
-        <p>X: <span id="x"></span></p>
+         <input type = 'button' id="verify" class="verify" value = 'Вычислить X'></p>
+
+        
+         <p>X: <input name="result" id="x"></p>
+        
+         <input type="Submit" name="Submit" id = 'send' value="Отправить">
+    </form>
     </div>
+    <div class="footer">
+        <p>© DeadForest</p>
+     </div>
+
     <div class="footer">
         <p>© DeadForest</p>
      </div>
