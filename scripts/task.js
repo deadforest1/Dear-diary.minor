@@ -31,10 +31,10 @@ function verify(){
     
     if (a < 62) {
         x = a**2+4+5
-        document.getElementById('x').innerText = x;}
+        document.getElementById('x').value = x;}
     else {
         x = 1/((a**2) + 4*a + 5)
-        document.getElementById('x').innerText = x;}
+        document.getElementById('x').value = x;}
         
        
     }}
