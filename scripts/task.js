@@ -35,7 +35,7 @@ function verify(){
     else {
         x = 1/((a**2) + 4*a + 5)
         document.getElementById('x').innerText = x;}
-        if (isNaN(x)===true) {alert('введи норм число')}
+        
        
     }}
 
