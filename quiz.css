@@ -1,23 +1,23 @@
 @font-face {
 	font-family: 'Conv_MisterBrush';
-	src: url('../../fonts/MisterBrush.eot');
-	src: local('☺'), url('../../fonts/MisterBrush.woff') format('woff'), url('../../fonts/MisterBrush.ttf') format('truetype'), url('../../fonts/MisterBrush.svg') format('svg');
+	src: url('https://deadforest1.github.io/Dear-diary.minor//fonts/MisterBrush.eot');
+	src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/MisterBrush.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/MisterBrush.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/MisterBrush.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Conv_Letmeshowyou_font';
-	src: url('../../fonts/Letmeshowyou_font.eot');
-	src: local('☺'), url('../../fonts/Letmeshowyou_font.woff') format('woff'), url('../../fonts/Letmeshowyou_font.ttf') format('truetype'), url('../../fonts/Letmeshowyou_font.svg') format('svg');
+	src: url('https://deadforest1.github.io/Dear-diary.minor//fonts/Letmeshowyou_font.eot');
+	src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Letmeshowyou_font.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Letmeshowyou_font.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Letmeshowyou_font.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;}
 
 
 @font-face {
    font-family: 'Conv_Kreadon';
-   src: url('../../fonts/Kreadon.eot');
-   src: local('☺'), url('../../fonts/Kreadon.woff') format('woff'), url('../../fonts/Kreadon.ttf') format('truetype'), url('../../fonts/Kreadon.svg') format('svg');
+   src: url('https://deadforest1.github.io/Dear-diary.minor//fonts/Kreadon.eot');
+   src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Kreadon.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Kreadon.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Kreadon.svg') format('svg');
    font-weight: normal;
    font-style: normal;}   
   
@@ -134,7 +134,7 @@ body
    height: 100%;
    margin: 0;
    padding: 0;
-   background-image: url('../images/quiz-bg.jpg');
+   background-image: url('https://deadforest1.github.io/Dear-diary.minor/static/images/quiz-bg.jpg');
    font-size: 16px;
    
    background-attachment: fixed;
