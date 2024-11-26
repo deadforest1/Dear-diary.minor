@@ -14,57 +14,31 @@
 	font-style: normal;
 }
 
-body {
-    padding: 0;
+
+html, body {
+    overflow-x: hidden;
     margin: 0;
-    background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/chars-bg.jpg");
-    background-attachment: fixed;}
+    padding: 0;
+    background-image: url("https://github.com/deadforest1/Dear-diary.minor/static/images/chars-bg.jpg"); 
+    background-attachment: fixed;
+    background-size: cover;
+}
     
 
 
 .header {
-    height: 90px;
-    background: #0e0e0e;
-}
-
- .footer{
-    margin-top: 50px;
+    background-color: black;
     width: 100%;
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    text-align: center;
+    height: 70px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-
-
-
-
-.footer p{
-    position: relative;
-    font-family: 'Conv_MisterBrush';
-    color: white;
-    font-size: 20px;
-    
-
-}
-
-.container {
-    width: 100%;
-    height: inherit;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    
-}
-
 
 
 .logo a{
+    
     font-family: 'Conv_Letmeshowyou_font';
-    font-size: 29px;
+    font-size: 25px;
     text-decoration: none;
     color: rgb(213, 213, 213);
     transition: all .1s ease-in-out;}
@@ -72,39 +46,44 @@ body {
 
 .logo a:hover{
     font-family: 'Conv_Letmeshowyou_font';
-    font-size: 31px;
+    font-size: 27px;
     text-decoration: none;
     color: rgb(213, 213, 213);}
+    
 
 .contacts{
-    padding: 40px;
-    box-shadow: black;
+    padding: 10px;
 }
 
+.img-increase img {
+    transition: all .1s ease-out;
+    margin: auto;
+    height: 5vh;
+    width: 5vh;
+}
+
+.img-increase img:hover{
+    transform: scale(1.1);
+    
+}
 
 
 .navbar{
     display: flex;
-    position: absolute;
-    z-index: 500;
+    z-index: 2;
     width: 100%;
-    height: 40px;
+    height: 50px;
     background: rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
+    box-shadow: rgba(0, 0, 0, .2);
 }
 
 .navbar_scrolled{
     position: fixed;
-   
     top: 0;
-    left: 0%;
+    left: 0;
     margin-top: 0
     
     
-}
-
-.test{
-    height: 1000px;
 }
 
 .navbar-menu{
@@ -117,28 +96,46 @@ body {
 }
 
 .navbar-menu  li{
-    
+    height: inherit;
     list-style-type: none;
     position: relative;
+    width: 20vh;
+    min-width: 60px;
     
+    
+}
+
+.contacts{
+    padding: 5vmin;
+}
+
+.img-increase img {
+    transition: all .1s ease-out;
+    margin: auto;
+    height: 50px;
+    
+}
+
+.img-increase img:hover{
+    transform: scale(1.1);
     
 }
 
 
 
-
-
 .navbar-menu  li  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: inherit;
     text-decoration: none;
     font-family: 'Conv_MisterBrush';
+    font-size: 13px;
     color: white;
-    padding-top: 10px;
-    padding-right: 80px;
-    padding-left: 80px;
-    padding-bottom: 10px;
+    min-width: inherit;
     border-right: 0.1px solid black;
     transition: all .1s ease-in-out;
+    
     
     
 }
@@ -149,97 +146,113 @@ body {
     
 }
 
-
-h1{
-    font-family: 'Conv_Letmeshowyou_font'; 
-    padding: 10px; 
-    margin: 50px;
+.active{
+    background-color: rgb(234, 109, 222);
 }
 
-.submenu {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    
-
-    
-    
+.navbar-menu  li a.active:hover{
+    background-color: rgb(227, 88, 213) 
 }
 
 
-li:hover .submenu{
+.title{
     display: flex;
-    
-    
-    
+    align-items: center;
+    justify-content: left;
 }
 
-
-.img-increase img {
+.title p{
+    font-family: 'Conv_Letmeshowyou_font';
+    font-size: 20px;
+    color: #0e0e0e;
+    background-color: rgba(251, 251, 251, 0.7);
+    border-radius: 10px;
     padding: 10px;
-    transition: all .1s ease-out;
-    -moz-transition: all .1s ease-out;
-    -o-transition: all .1s ease-out;
-    -webkit-transition: all .1s ease-out;
+    margin-left: 10px;
+    box-shadow: 0vh 8px 10px rgba(255, 255, 255, 0.5);
+
 }
 
-.img-increase img:hover{
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-}
-
-.area{
-    height: 1000px;
-    width: 1000px;
-    background-image: url('https://deadforest1.github.io/Dear-diary.minor/static/images/sheet2.png');
-    background-size: 1000px 1000px;
-    text-align: center;
+.content-area{
+    background-image: url("https://github.com/deadforest1/Dear-diary.minor/static/images/sheet1.png" );
+    background-size: 100% 100%;
+    height: 60%;
+    width: 100%;
+    max-width: 70%;
+    min-width: 300px;
+    min-height: 200px;
+    padding: 3vh;
+    /* text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    justify-content: center; */
+ 
+    
+ }
+ 
+.content-chars{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh;
     align-items: center;
     justify-content: center;
-    margin-left: 50px;
-   
-    
-    
-}
-
-.content-area-chars{
-    display: flex;
-    position: relative;
-    text-align: center;
-    
-    
-    
-
-    
 }
 
 figure{
-    margin: 20px;
+    margin: 2vh;
+    text-align: center;
+    
 }
+
+.img-icon img {
+    transition: all .1s ease-out;
+    margin: auto;
+    height: 15vmin;
+    
+}
+
+.img-icon img:hover{
+    transform: scale(1.1);
+    
+}
+
 
 figcaption{
     font-family: 'Conv_MisterBrush';  
 }
 
+.footer{
+    
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10; */
 
-.title p{
-    display: inline-block;
-    margin: 60px 0px 0px 50px;
-    /* position: absolute;
-    margin-top: 65px;
-    margin-left: 50px; */
-    font-family: 'Conv_Letmeshowyou_font';
-    font-size: 25px;
-    color: #0e0e0e;
-    background-color: rgba(251, 251, 251, 0.7);
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 0px 7px 12px rgba(255, 255, 255, 0.5);
-
+    
 }
 
 
+.footer p{
+    font-family: 'Conv_MisterBrush';
+    color: white;
+    font-size:calc(10px + 0.5v);
+
+}
+
+.fixed-bottom{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
