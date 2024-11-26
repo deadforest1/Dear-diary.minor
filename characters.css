@@ -19,7 +19,7 @@ html, body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/chars-bg.jpg"); 
+    background-image: url("static/images/chars-bg.jpg"); 
     background-attachment: fixed;
     background-size: cover;
 }
@@ -174,7 +174,7 @@ html, body {
 }
 
 .content-area{
-    background-image: url("https://deadforest1.github.io/Dear-diary.minor/static/images/sheet1.png" );
+    background-image: url("static/images/sheet1.png");
     background-size: 100% 100%;
     height: 60%;
     width: 100%;
