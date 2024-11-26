@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Conv_MisterBrush';
-	src: url('https://deadforest1.github.io/Dear-diary.minor//fonts/MisterBrush.eot');
+	src: url('https://deadforest1.github.io/Dear-diary.minor/fonts/MisterBrush.eot');
 	src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/MisterBrush.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/MisterBrush.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/MisterBrush.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: 'Conv_Letmeshowyou_font';
-	src: url('https://deadforest1.github.io/Dear-diary.minor//fonts/Letmeshowyou_font.eot');
+	src: url('https://deadforest1.github.io/Dear-diary.minor/fonts/Letmeshowyou_font.eot');
 	src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Letmeshowyou_font.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Letmeshowyou_font.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Letmeshowyou_font.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;}
@@ -16,137 +16,145 @@
 
 @font-face {
    font-family: 'Conv_Kreadon';
-   src: url('https://deadforest1.github.io/Dear-diary.minor//fonts/Kreadon.eot');
+   src: url('https://deadforest1.github.io/Dear-diary.minor/fonts/Kreadon.eot');
    src: local('☺'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Kreadon.woff') format('woff'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Kreadon.ttf') format('truetype'), url('https://deadforest1.github.io/Dear-diary.minor//fonts/Kreadon.svg') format('svg');
    font-weight: normal;
    font-style: normal;}   
   
   
-  .header {
-      height: 90px;
-      background: #0e0e0e;
-  }
-  
-  .container {
-      width: 100%;
-      height: inherit;
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      
-  }
-  
-  
-  
-  .logo a{
-      font-family: 'Conv_Letmeshowyou_font';
-      font-size: 29px;
-      text-decoration: none;
-      color: rgb(213, 213, 213);
-      transition: all .1s ease-in-out;}
-      
-  
-  .logo a:hover{
-      font-family: 'Conv_Letmeshowyou_font';
-      font-size: 31px;
-      text-decoration: none;
-      color: rgb(213, 213, 213);}
-  
-  .contacts{
-      padding: 40px;
-      box-shadow: black;
-  }
-  
-  
-  
-  .navbar{
-      display: flex;
-      position: absolute;
-      z-index: 500;
-      width: 100%;
-      height: 40px;
-      background: rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 3px 6px rgba(0, 0, 0, .2);
-  }
-  
-  .navbar_scrolled{
-      position: fixed;
-     
-      top: 0;
-      left: 0%;
-      margin-top: 0
-      
-      
-  }
-  
-  .test{
-      height: 1000px;
-  }
-  
-  .navbar-menu{
-     height: inherit;
-     display: flex;
-     align-items: center;
-     width: 100%;
-     padding: 0;
-     margin: 0;
-  }
-  
-  .navbar-menu  li{
-      
-      list-style-type: none;
-      position: relative;
-      
-      
-  }
-  
-  
-  
-  
-  
-  .navbar-menu  li  a{
-      height: inherit;
-      text-decoration: none;
-      font-family: 'Conv_MisterBrush';
-      color: white;
-      padding-top: 10px;
-      padding-right: 80px;
-      padding-left: 80px;
-      padding-bottom: 10px;
-      border-right: 0.1px solid black;
-      transition: all .1s ease-in-out;
-      
-      
-  }
-  
-  .navbar-menu  li  a:hover{
-      background-color: rgb(31, 30, 30);
-      
-      
-  }
-  
-
-
-body
-{
-   
-   width: 100%;
-   height: 100%;
-   margin: 0;
-   padding: 0;
-   background-image: url('https://deadforest1.github.io/Dear-diary.minor/static/images/quiz-bg.jpg');
-   font-size: 16px;
-   
-   background-attachment: fixed;
-   color: #111;
+ html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://deadforest1.github.io/Dear-diary.minor/static/images/quiz-bg.jpg'); 
+    background-attachment: fixed;
+    background-size: cover;
 }
- 
-main{
     
-    margin-top: 70px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 100px;
+
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo a{
+    
+    font-family: 'Conv_Letmeshowyou_font';
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(213, 213, 213);
+    transition: all .1s ease-in-out;}
+    
+
+.logo a:hover{
+    font-family: 'Conv_Letmeshowyou_font';
+    font-size: 27px;
+    text-decoration: none;
+    color: rgb(213, 213, 213);}
+    
+
+.contacts{
+    padding: 10px;
+}
+
+.img-increase img {
+    transition: all .1s ease-out;
+    margin: auto;
+    
+}
+
+.img-increase img:hover{
+    transform: scale(1.1);
+    
+}
+
+
+.navbar{
+    display: flex;
+    z-index: 2;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: rgba(0, 0, 0, .2);
+}
+
+.navbar_scrolled{
+    position: fixed;
+    z-index: 500;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    
+    
+    
+}
+
+.navbar-menu{
+   height: inherit;
+   display: flex;
+   align-items: center;
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+.navbar-menu  li{
+    height: inherit;
+    list-style-type: none;
+    position: relative;
+    width: 20vh;
+    min-width: 60px;
+    
+    
+}
+
+
+
+
+
+.navbar-menu  li  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    text-decoration: none;
+    font-family: 'Conv_MisterBrush';
+    font-size: 13px;
+    color: white;
+    min-width: inherit;
+    border-right: 0.1px solid black;
+    transition: all .1s ease-in-out;
+    
+    
+    
+}
+
+.navbar-menu  li  a:hover{
+    background-color: rgb(31, 30, 30);
+    
+    
+}
+
+.active{
+    background-color: rgb(234, 109, 222);
+}
+
+.navbar-menu  li a.active:hover{
+    background-color: rgb(227, 88, 213) 
+}
+
+  
+
+ 
+.content{
+    
+   margin: 5%;
+   
     
     
 }
@@ -154,30 +162,30 @@ main{
 
 .question{
     font-family: 'Conv_Letmeshowyou_font';
-    font-size: 25px;
+    font-size:calc(15px + 0.5vh);;
 }
 
-main ul{
+.content ul{
     list-style: none;
     margin-bottom: 100px;
 }
 
-main li{
+.content li{
     margin: 10px;
     background-color: aliceblue;
     border: 2px solid rgb(234, 109, 222);
     border-radius: 10px;
-    width: 50%;
+    width: 70%;
     padding: 10px;
     font-family: "Conv_Kreadon"
 }
 
-main li:hover{
+.contetent li:hover{
     background-color: rgb(193, 193, 193);
     
 }
 
-main li:active{
+.content li:active{
     background-color: rgb(158, 157, 157);
     
 }
@@ -190,8 +198,10 @@ main li:active{
 
 .result{
     font-family: 'Conv_Kreadon';
+    font-size:calc(12px+0.5vh);
     margin-right: 50px;
-    max-width: 50%;
+    width: 70%;
+    max-width: 500px;
     background-color: rgba(223, 228, 233, 0.2);
     border-radius: 10px;
     padding: 20px;
@@ -200,38 +210,43 @@ main li:active{
 }
 
 .image{
-    height: 300px;
-    /* height: 240px;
-    width: 200px; */
-    margin-top: 20px;
+    height: 30em;
+    margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 10px;
 }
 
+.footer{
+    
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+}
+
+
 .footer p{
-    position: relative;
     font-family: 'Conv_MisterBrush';
     color: white;
-    font-size: 20px;}
-    
-    
-.footer{
-        margin-top: 50px;
-        width: 100%;
-        height: 100px;
-        background-color: rgba(0, 0, 0, 0.7);
-        /* position: relative; */
-        text-align: center;
-        display: flex; 
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        
-        
-        
-    }
+    font-size:calc(10px + 0.5vh);
+
+}
+
+.fixed-bottom{
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+}
+
+
 
 .wrapper{
-    height: 500px;
+    height: inherit;
 }
 
